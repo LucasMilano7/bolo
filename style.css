@@ -385,8 +385,8 @@ flex-shrink: 0;
 .frame .por-que-escolher-wrapper {
   position: absolute;
   width: 1200px;
-  height: 500px;
-  top: 3110px;
+  height: 400px;
+  top: 3010px;
   left: 0;
   background-color: #d9d9d9;
   border-radius: 50px;
@@ -642,7 +642,7 @@ flex-shrink: 0;
 .frame .estamos-sempre {
   position: absolute;
   width: 1006px;
-  top: 300px;
+  top: 360px;
   left: 25px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -815,20 +815,7 @@ header {
   width: 5%;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-}
 
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
 
 .hero {
   background: url('https://i.ibb.co/3h49W98/milano-hero.png') no-repeat center center/cover;
@@ -868,6 +855,11 @@ footer {
     width: 95%;
     margin-bottom: 10px;
   }
+
+  .product-item {
+      margin: 10px 0;
+  }
+}
 
   .product-item {
       margin: 10px 0;
