@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("", function() {
     
-    const buttons = document.querySelectorAll('.nav-bar button');
+    const buttons = document.querySelectorAll('');
 
     buttons.forEach(button => {
         button.addEventListener('click', function() {
-            // Obtém o ID do target a partir do atributo data-target
-            const targetId = this.getAttribute('data-target');
+          
+            const targetId = this.getAttribute('');
             const targetElement = document.querySelector(targetId);
 
            
